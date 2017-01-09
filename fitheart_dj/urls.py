@@ -20,4 +20,6 @@ from fitheart import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^index/', views.index, name='index'),
+    url(r'^product_reviews/$', views.product_reviews, name='product-reviews'),
+    url(r'^product_review/(?P<id>[\w\d0-9]+)/$', views.product_review_detail , name='product-review-detail'),
 ]

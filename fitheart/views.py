@@ -14,3 +14,16 @@ def index(request):
     context ={
     }
     return render(request, 'fitheart/index.html', context)
+
+def product_reviews(request):
+    template = loader.get_template('fitheart/product_reviews.html')
+    context ={
+    }
+    return render(request, 'fitheart/product_reviews.html', context)
+
+def product_review_detail(request, id):
+    template = loader.get_template('fitheart/product_review_detail.html')
+    context ={
+    }
+    return render(request, 'fitheart/product_review_detail.html', context)
+

@@ -25,35 +25,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fitheart_dj/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1598">
-              <caret line="133" column="42" selection-start-line="133" selection-start-column="42" selection-end-line="133" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fitheart_dj/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+            <state relative-caret-position="258">
+              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
               <folding>
                 <element signature="e#644#676#0" expanded="true" />
+                <marker date="1483934176745" expanded="true" signature="753:1029" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fitheart/models.py">
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fitheart/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fitheart/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+              <folding>
+                <marker date="1483932988737" expanded="true" signature="510:668" ph="..." />
+                <marker date="1483932988737" expanded="true" signature="709:879" ph="..." />
               </folding>
             </state>
           </provider>
@@ -62,8 +66,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/fitheart/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="85">
+              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -72,8 +76,8 @@
       <file leaf-file-name="content.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/fitheart/content.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="3725" column="30" selection-start-line="3725" selection-start-column="30" selection-end-line="3725" selection-end-column="30" />
+            <state relative-caret-position="187">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#h3#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#p#6;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
@@ -111,46 +115,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navbar.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/fitheart/navbar.html">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fitheart/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="119">
+              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/fitheart/sidebar.html">
+      <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fitheart/apps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="263" column="14" selection-start-line="263" selection-start-column="14" selection-end-line="263" selection-end-column="14" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ins#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ins#0;n#ins#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ins#0;n#ins#0;n#ins#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#iframe#0;n#ins#0;n#ins#0;n#ins#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#li#6;n#ul#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#li#7;n#ul#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#13;n#ul#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ins#0;n#div#0;n#li#13;n#ul#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ins#0;n#ins#0;n#div#0;n#li#13;n#ul#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ins#0;n#ins#0;n#ins#0;n#div#0;n#li#13;n#ul#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#iframe#0;n#ins#0;n#ins#0;n#ins#0;n#div#0;n#li#13;n#ul#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/fitheart/base.html">
+      <file leaf-file-name="product_reviews.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/fitheart/product_reviews.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="104" column="28" selection-start-line="104" selection-start-column="28" selection-end-line="104" selection-end-column="28" />
+            <state relative-caret-position="133">
+              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+              <folding>
+                <marker date="1483933735696" expanded="true" signature="110:7763" ph="..." />
+                <marker date="1483933735696" expanded="true" signature="149:7750" ph="..." />
+                <marker date="1483933735696" expanded="true" signature="184:7718" ph="..." />
+                <marker date="1483933735696" expanded="true" signature="660:1929" ph="..." />
+                <marker date="1483933735696" expanded="true" signature="856:1900" ph="..." />
+                <marker date="1483933735696" expanded="true" signature="904:1178" ph="..." />
+                <marker date="1483933735696" expanded="true" signature="1214:1834" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -159,21 +168,16 @@
       <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/fitheart/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="88" column="13" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
+            <state relative-caret-position="116">
+              <caret line="83" column="183" selection-start-line="83" selection-start-column="180" selection-end-line="83" selection-end-column="183" />
               <folding>
-                <element signature="n#div#0;n#!!top" expanded="false" />
+                <marker date="1483932280495" expanded="true" signature="100:2035" ph="..." />
+                <marker date="1483932280495" expanded="true" signature="433:1997" ph="..." />
+                <marker date="1483932280495" expanded="true" signature="478:1453" ph="..." />
+                <marker date="1483932280495" expanded="true" signature="513:1447" ph="..." />
+                <marker date="1483932280495" expanded="true" signature="2125:8923" ph="..." />
+                <marker date="1483932280495" expanded="true" signature="2278:8848" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/fitheart/footer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -183,24 +187,29 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Setup Script" />
         <option value="HTML File" />
+        <option value="Setup Script" />
       </list>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/fitheart/views.py" />
-        <option value="$PROJECT_DIR$/fitheart_dj/urls.py" />
         <option value="$PROJECT_DIR$/templates/fitheart/footer.html" />
         <option value="$PROJECT_DIR$/fitheart_dj/settings.py" />
-        <option value="$PROJECT_DIR$/templates/fitheart/header.html" />
         <option value="$PROJECT_DIR$/templates/fitheart/navbar.html" />
-        <option value="$PROJECT_DIR$/templates/fitheart/sidebar.html" />
         <option value="$PROJECT_DIR$/templates/fitheart/content.html" />
         <option value="$PROJECT_DIR$/templates/fitheart/index.html" />
+        <option value="$PROJECT_DIR$/templates/fitheart/sidebar.html" />
         <option value="$PROJECT_DIR$/templates/fitheart/base.html" />
+        <option value="$PROJECT_DIR$/templates/fitheart/header.html" />
+        <option value="$PROJECT_DIR$/templates/fitheart/product_review_detail.html" />
+        <option value="$PROJECT_DIR$/fitheart/views.py" />
+        <option value="$PROJECT_DIR$/templates/fitheart/product_reviews.html" />
+        <option value="$PROJECT_DIR$/fitheart_dj/urls.py" />
+        <option value="$PROJECT_DIR$/README" />
+        <option value="$PROJECT_DIR$/fitheart/admin.py" />
+        <option value="$PROJECT_DIR$/fitheart/models.py" />
       </list>
     </option>
   </component>
@@ -288,7 +297,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fitheart_dj" />
+              <option name="myItemId" value="fitheart" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -302,6 +311,8 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="Django server.fitheart_dj">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -580,15 +591,17 @@
     <frame x="-8" y="-8" width="1370" height="754" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18463811" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5029542" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298351" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33074534" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42701864" sideWeight="0.4970458" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18463811" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="manage.py@fitheart_dj" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919255" sideWeight="0.4970458" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.4970458" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -596,8 +609,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="manage.py@fitheart_dj" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298351" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -639,6 +650,7 @@
           <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
           <folding>
             <element signature="e#644#676#0" expanded="true" />
+            <marker date="1483934176745" expanded="true" signature="753:1029" ph="..." />
           </folding>
         </state>
       </provider>
@@ -656,7 +668,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -682,7 +694,12 @@
         <state relative-caret-position="17">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
-            <element signature="n#div#0;n#!!top" expanded="false" />
+            <marker date="1483932280495" expanded="true" signature="100:2035" ph="..." />
+            <marker date="1483932280495" expanded="true" signature="433:1997" ph="..." />
+            <marker date="1483932280495" expanded="true" signature="478:1453" ph="..." />
+            <marker date="1483932280495" expanded="true" signature="513:1447" ph="..." />
+            <marker date="1483932280495" expanded="true" signature="2125:8923" ph="..." />
+            <marker date="1483932280495" expanded="true" signature="2278:8848" ph="..." />
           </folding>
         </state>
       </provider>
@@ -703,44 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fitheart/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fitheart/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding>
-            <element signature="e#1#35#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fitheart/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fitheart_dj/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-          <folding>
-            <element signature="e#644#676#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fitheart_dj/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1598">
@@ -757,10 +736,246 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/fitheart/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#ins#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#ins#0;n#ins#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#ins#0;n#ins#0;n#ins#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#iframe#0;n#ins#0;n#ins#0;n#ins#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#6;n#ul#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#li#7;n#ul#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#li#13;n#ul#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#ins#0;n#div#0;n#li#13;n#ul#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#ins#0;n#ins#0;n#div#0;n#li#13;n#ul#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#ins#0;n#ins#0;n#ins#0;n#div#0;n#li#13;n#ul#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#iframe#0;n#ins#0;n#ins#0;n#ins#0;n#div#0;n#li#13;n#ul#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/fitheart/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/fitheart/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/fitheart/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/fitheart/product_review_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+          <folding>
+            <element signature="e#2706#2824#0#HTML" expanded="false" />
+            <element signature="e#4643#4669#0#HTML" expanded="false" />
+            <element signature="e#5442#5560#0#HTML" expanded="false" />
+            <element signature="e#6102#6220#0#HTML" expanded="false" />
+            <element signature="e#6690#6808#0#HTML" expanded="false" />
+            <element signature="e#7175#7293#0#HTML" expanded="false" />
+            <element signature="e#7944#8062#0#HTML" expanded="false" />
+            <element signature="e#8574#8692#0#HTML" expanded="false" />
+            <element signature="e#9015#9133#0#HTML" expanded="false" />
+            <element signature="e#9511#9629#0#HTML" expanded="false" />
+            <element signature="e#9992#10110#0#HTML" expanded="false" />
+            <element signature="e#10730#10848#0#HTML" expanded="false" />
+            <element signature="e#11141#11167#0#HTML" expanded="false" />
+            <element signature="e#11540#11664#0#HTML" expanded="false" />
+            <element signature="e#11923#12047#0#HTML" expanded="false" />
+            <element signature="e#12311#12435#0#HTML" expanded="false" />
+            <element signature="e#12915#13039#0#HTML" expanded="false" />
+            <element signature="e#13305#13429#0#HTML" expanded="false" />
+            <element signature="e#13693#13817#0#HTML" expanded="false" />
+            <element signature="e#14219#14337#0#HTML" expanded="false" />
+            <element signature="e#14685#14803#0#HTML" expanded="false" />
+            <element signature="e#15165#15283#0#HTML" expanded="false" />
+            <element signature="e#15828#15946#0#HTML" expanded="false" />
+            <element signature="e#16277#16395#0#HTML" expanded="false" />
+            <element signature="e#16858#16982#0#HTML" expanded="false" />
+            <element signature="e#17246#17370#0#HTML" expanded="false" />
+            <element signature="e#17717#17841#0#HTML" expanded="false" />
+            <element signature="e#18210#18328#0#HTML" expanded="false" />
+            <element signature="e#18711#18829#0#HTML" expanded="false" />
+            <element signature="e#19536#19562#0#HTML" expanded="false" />
+            <element signature="e#19717#19835#0#HTML" expanded="false" />
+            <element signature="e#22169#22188#0#HTML" expanded="false" />
+            <element signature="e#22674#22792#0#HTML" expanded="false" />
+            <element signature="e#23259#23377#0#HTML" expanded="false" />
+            <element signature="e#24135#24253#0#HTML" expanded="false" />
+            <element signature="e#24934#25052#0#HTML" expanded="false" />
+            <element signature="e#25592#25710#0#HTML" expanded="false" />
+            <element signature="e#26747#26865#0#HTML" expanded="false" />
+            <element signature="e#27381#27499#0#HTML" expanded="false" />
+            <element signature="e#28200#28318#0#HTML" expanded="false" />
+            <element signature="e#28945#29063#0#HTML" expanded="false" />
+            <element signature="e#29746#29864#0#HTML" expanded="false" />
+            <element signature="e#30920#31044#0#HTML" expanded="false" />
+            <element signature="e#31668#31792#0#HTML" expanded="false" />
+            <element signature="e#32412#32530#0#HTML" expanded="false" />
+            <element signature="e#33204#33322#0#HTML" expanded="false" />
+            <element signature="e#33816#33934#0#HTML" expanded="false" />
+            <element signature="e#34592#34723#0#HTML" expanded="false" />
+            <element signature="e#35366#35484#0#HTML" expanded="false" />
+            <element signature="e#35838#35962#0#HTML" expanded="false" />
+            <element signature="e#37002#37120#0#HTML" expanded="false" />
+            <element signature="e#38180#38304#0#HTML" expanded="false" />
+            <element signature="e#39192#39310#0#HTML" expanded="false" />
+            <element signature="e#39828#39952#0#HTML" expanded="false" />
+            <element signature="e#40323#40447#0#HTML" expanded="false" />
+            <element signature="e#41163#41281#0#HTML" expanded="false" />
+            <element signature="e#41790#41908#0#HTML" expanded="false" />
+            <element signature="e#43519#43643#0#HTML" expanded="false" />
+            <element signature="e#44407#44525#0#HTML" expanded="false" />
+            <element signature="e#45121#45147#0#HTML" expanded="false" />
+            <element signature="e#45324#45442#0#HTML" expanded="false" />
+            <element signature="e#47357#47475#0#HTML" expanded="false" />
+            <element signature="e#48117#48235#0#HTML" expanded="false" />
+            <element signature="e#50290#50408#0#HTML" expanded="false" />
+            <element signature="e#50738#50856#0#HTML" expanded="false" />
+            <element signature="e#51659#51777#0#HTML" expanded="false" />
+            <element signature="e#52167#52285#0#HTML" expanded="false" />
+            <element signature="e#53399#53517#0#HTML" expanded="false" />
+            <element signature="e#54427#54545#0#HTML" expanded="false" />
+            <element signature="e#55099#55217#0#HTML" expanded="false" />
+            <element signature="e#55705#55823#0#HTML" expanded="false" />
+            <element signature="e#56492#56610#0#HTML" expanded="false" />
+            <element signature="e#57232#57350#0#HTML" expanded="false" />
+            <element signature="e#57678#57796#0#HTML" expanded="false" />
+            <element signature="e#58477#58595#0#HTML" expanded="false" />
+            <element signature="e#59508#59626#0#HTML" expanded="false" />
+            <element signature="e#60300#60418#0#HTML" expanded="false" />
+            <element signature="e#61648#61674#0#HTML" expanded="false" />
+            <element signature="e#61864#61982#0#HTML" expanded="false" />
+            <element signature="e#63218#63336#0#HTML" expanded="false" />
+            <element signature="e#63644#63762#0#HTML" expanded="false" />
+            <element signature="e#65812#65936#0#HTML" expanded="false" />
+            <element signature="e#67763#67881#0#HTML" expanded="false" />
+            <element signature="e#68796#68914#0#HTML" expanded="false" />
+            <element signature="e#69222#69340#0#HTML" expanded="false" />
+            <element signature="e#69729#69847#0#HTML" expanded="false" />
+            <element signature="e#70155#70273#0#HTML" expanded="false" />
+            <element signature="e#71078#71104#0#HTML" expanded="false" />
+            <element signature="e#71280#71398#0#HTML" expanded="false" />
+            <element signature="e#72369#72487#0#HTML" expanded="false" />
+            <element signature="e#74511#74629#0#HTML" expanded="false" />
+            <element signature="e#78282#78308#0#HTML" expanded="false" />
+            <element signature="e#78479#78597#0#HTML" expanded="false" />
+            <element signature="e#80343#80461#0#HTML" expanded="false" />
+            <element signature="e#80932#81050#0#HTML" expanded="false" />
+            <element signature="e#82055#82173#0#HTML" expanded="false" />
+            <element signature="e#82684#82802#0#HTML" expanded="false" />
+            <element signature="e#83414#83532#0#HTML" expanded="false" />
+            <element signature="e#84301#84419#0#HTML" expanded="false" />
+            <element signature="e#84796#84914#0#HTML" expanded="false" />
+            <element signature="e#92403#92429#0#HTML" expanded="false" />
+            <element signature="e#92609#92727#0#HTML" expanded="false" />
+            <element signature="e#95040#95158#0#HTML" expanded="false" />
+            <element signature="e#96048#96166#0#HTML" expanded="false" />
+            <element signature="e#96648#96674#0#HTML" expanded="false" />
+            <element signature="e#107589#107615#0#HTML" expanded="false" />
+            <element signature="e#107772#107890#0#HTML" expanded="false" />
+            <element signature="e#110776#110802#0#HTML" expanded="false" />
+            <element signature="e#117850#117871#0#HTML" expanded="false" />
+            <element signature="e#119221#119240#0#HTML" expanded="false" />
+            <element signature="e#119372#119390#0#HTML" expanded="false" />
+            <element signature="e#119419#119438#0#HTML" expanded="false" />
+            <element signature="e#119556#119574#0#HTML" expanded="false" />
+            <element signature="e#119669#119692#0#HTML" expanded="false" />
+            <element signature="e#119776#119796#0#HTML" expanded="false" />
+            <element signature="e#120234#120253#0#HTML" expanded="false" />
+            <element signature="e#129894#129931#0#HTML" expanded="false" />
+            <element signature="e#158331#158368#0#HTML" expanded="false" />
+            <element signature="e#213507#213544#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/fitheart/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="83" column="183" selection-start-line="83" selection-start-column="180" selection-end-line="83" selection-end-column="183" />
+          <folding>
+            <marker date="1483932280495" expanded="true" signature="100:2035" ph="..." />
+            <marker date="1483932280495" expanded="true" signature="433:1997" ph="..." />
+            <marker date="1483932280495" expanded="true" signature="478:1453" ph="..." />
+            <marker date="1483932280495" expanded="true" signature="513:1447" ph="..." />
+            <marker date="1483932280495" expanded="true" signature="2125:8923" ph="..." />
+            <marker date="1483932280495" expanded="true" signature="2278:8848" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fitheart/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <marker date="1483932988737" expanded="true" signature="510:668" ph="..." />
+            <marker date="1483932988737" expanded="true" signature="709:879" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/fitheart/product_reviews.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding>
+            <marker date="1483933735696" expanded="true" signature="110:7763" ph="..." />
+            <marker date="1483933735696" expanded="true" signature="149:7750" ph="..." />
+            <marker date="1483933735696" expanded="true" signature="184:7718" ph="..." />
+            <marker date="1483933735696" expanded="true" signature="660:1929" ph="..." />
+            <marker date="1483933735696" expanded="true" signature="856:1900" ph="..." />
+            <marker date="1483933735696" expanded="true" signature="904:1178" ph="..." />
+            <marker date="1483933735696" expanded="true" signature="1214:1834" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fitheart_dj/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="e#644#676#0" expanded="true" />
+            <marker date="1483934176745" expanded="true" signature="753:1029" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/fitheart/content.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="3725" column="30" selection-start-line="3725" selection-start-column="30" selection-end-line="3725" selection-end-column="30" />
+        <state relative-caret-position="187">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
           <folding>
             <element signature="n#style#0;n#span#0;n#h3#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#p#6;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
@@ -797,59 +1012,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/fitheart/index.html">
+    <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="51">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/fitheart/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="104" column="28" selection-start-line="104" selection-start-column="28" selection-end-line="104" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/fitheart/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="88" column="13" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
-          <folding>
-            <element signature="n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/fitheart/sidebar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="263" column="14" selection-start-line="263" selection-start-column="14" selection-end-line="263" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ins#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ins#0;n#ins#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ins#0;n#ins#0;n#ins#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#ins#0;n#ins#0;n#ins#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#6;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#li#7;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#13;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ins#0;n#div#0;n#li#13;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ins#0;n#ins#0;n#div#0;n#li#13;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ins#0;n#ins#0;n#ins#0;n#div#0;n#li#13;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#ins#0;n#ins#0;n#ins#0;n#div#0;n#li#13;n#ul#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/fitheart/navbar.html">
+    <entry file="file://$PROJECT_DIR$/fitheart/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fitheart/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fitheart/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
           <folding />
         </state>
       </provider>
