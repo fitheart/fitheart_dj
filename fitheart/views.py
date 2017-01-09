@@ -5,7 +5,7 @@ from django.views.generic.edit import CreateView, BaseCreateView, BaseDetailView
 from django.views.generic import ListView
 from django.forms import Form
 from django.http import JsonResponse
-from .models import (ProductGroup, Product)
+from .models import (ProductGroup, Product, Articles)
 
 # Create your views here.
 
@@ -26,8 +26,15 @@ def product_reviews(request):
     return render(request, 'fitheart/product_reviews.html', context)
 
 def product_review_detail(request, id):
+    print "id:" , id
+    pro_grp = ProductGroup.objects.get(id=id)
+    print "group:" + pro_grp.name
     template = loader.get_template('fitheart/product_review_detail.html')
+    articles = Articles.objects.all()
     context ={
+        'group_id': pro_grp.id,
+        'group_name': pro_grp.name,
+        'article': articles,
     }
     return render(request, 'fitheart/product_review_detail.html', context)
 

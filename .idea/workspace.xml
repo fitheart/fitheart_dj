@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0324c61f-7a6d-4c1b-a3c8-641fb15fd4fc" name="Default" comment="" />
+    <list default="true" id="0324c61f-7a6d-4c1b-a3c8-641fb15fd4fc" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/fitheart_dj.iml" afterPath="$PROJECT_DIR$/.idea/fitheart_dj.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fitheart/admin.py" afterPath="$PROJECT_DIR$/fitheart/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fitheart/models.py" afterPath="$PROJECT_DIR$/fitheart/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fitheart/views.py" afterPath="$PROJECT_DIR$/fitheart/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/fitheart/base.html" afterPath="$PROJECT_DIR$/templates/fitheart/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/fitheart/header.html" afterPath="$PROJECT_DIR$/templates/fitheart/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/fitheart/product_review_detail.html" afterPath="$PROJECT_DIR$/templates/fitheart/product_review_detail.html" />
+    </list>
     <ignored path="fitheart_dj.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -25,11 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fitheart_dj/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+            <state relative-caret-position="363">
+              <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
               <folding>
                 <element signature="e#644#676#0" expanded="true" />
               </folding>
@@ -40,8 +51,8 @@
       <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fitheart/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="119">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -53,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/templates/fitheart/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+              <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -62,7 +73,7 @@
       <file leaf-file-name="product_reviews.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/fitheart/product_reviews.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
+            <state relative-caret-position="391">
               <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
               <folding />
             </state>
@@ -72,11 +83,9 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fitheart/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="235">
+              <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,9 +93,24 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/fitheart/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="103" column="29" selection-start-line="103" selection-start-column="29" selection-end-line="103" selection-end-column="29" />
-              <folding />
+            <state relative-caret-position="262">
+              <caret line="105" column="33" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="33" />
+              <folding>
+                <marker date="1483969361886" expanded="true" signature="134:5916" ph="..." />
+                <marker date="1483969361886" expanded="true" signature="142:5615" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fitheart.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fitheart/static/fitheart/js/fitheart.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="64" column="7" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
+              <folding>
+                <marker date="1483970688653" expanded="true" signature="2103:2194" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,8 +118,8 @@
       <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/fitheart/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="58" column="70" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="70" />
+            <state relative-caret-position="204">
+              <caret line="56" column="39" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -104,8 +128,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fitheart/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+            <state relative-caret-position="235">
+              <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
               <folding>
                 <element signature="e#1#35#0" expanded="true" />
               </folding>
@@ -113,23 +137,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fitheart/apps.py">
+      <file leaf-file-name="product_review_detail.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/fitheart/product_review_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            <state relative-caret-position="102">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -145,6 +157,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -154,15 +169,16 @@
         <option value="$PROJECT_DIR$/templates/fitheart/content.html" />
         <option value="$PROJECT_DIR$/templates/fitheart/index.html" />
         <option value="$PROJECT_DIR$/templates/fitheart/sidebar.html" />
-        <option value="$PROJECT_DIR$/templates/fitheart/base.html" />
-        <option value="$PROJECT_DIR$/templates/fitheart/product_review_detail.html" />
         <option value="$PROJECT_DIR$/templates/fitheart/product_reviews.html" />
         <option value="$PROJECT_DIR$/fitheart_dj/urls.py" />
         <option value="$PROJECT_DIR$/README" />
+        <option value="$PROJECT_DIR$/templates/fitheart/base.html" />
+        <option value="$PROJECT_DIR$/fitheart/static/fitheart/js/fitheart.js" />
+        <option value="$PROJECT_DIR$/templates/fitheart/header.html" />
+        <option value="$PROJECT_DIR$/fitheart/models.py" />
         <option value="$PROJECT_DIR$/fitheart/admin.py" />
         <option value="$PROJECT_DIR$/fitheart/views.py" />
-        <option value="$PROJECT_DIR$/fitheart/models.py" />
-        <option value="$PROJECT_DIR$/templates/fitheart/header.html" />
+        <option value="$PROJECT_DIR$/templates/fitheart/product_review_detail.html" />
       </list>
     </option>
   </component>
@@ -175,7 +191,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1370" />
+    <option name="width" value="1300" />
     <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -203,7 +219,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -268,8 +283,31 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitheart_dj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitheart_dj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitheart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitheart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -520,7 +558,7 @@
         <env name="DJANGO_SETTINGS_MODULE" value="fitheart_dj.settings" />
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\Admin\AppData\Local\Programs\Python\Python35-32\python.exe" />
+      <option name="SDK_HOME" value="C:\Python27\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -555,20 +593,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1370" height="754" extended-state="0" />
+    <frame x="-8" y="-8" width="1300" height="754" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25311527" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@fitheart_dj" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32868218" sideWeight="0.4970458" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5029542" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42701864" sideWeight="0.4970458" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18463811" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="manage.py@fitheart_dj" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919255" sideWeight="0.4970458" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.4970458" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28527132" sideWeight="0.4970458" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -576,6 +613,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.4970458" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -589,12 +627,108 @@
           <url>file://$PROJECT_DIR$/fitheart/views.py</url>
           <line>2</line>
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/fitheart/views.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/fitheart_dj/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#644#676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fitheart/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/fitheart/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/fitheart/product_reviews.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fitheart/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/fitheart/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1751">
+          <caret line="103" column="29" selection-start-line="103" selection-start-column="29" selection-end-line="103" selection-end-column="29" />
+          <folding>
+            <marker date="1483969361886" expanded="true" signature="134:5916" ph="..." />
+            <marker date="1483969361886" expanded="true" signature="142:5615" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/fitheart/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="70" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fitheart/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding>
+            <element signature="e#1#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fitheart/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fitheart_dj/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2108">
@@ -607,7 +741,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -625,7 +761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -633,9 +768,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -651,7 +784,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
           <caret line="67" column="40" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
-          <folding />
+          <folding>
+            <marker date="1483969361886" expanded="true" signature="134:5916" ph="..." />
+            <marker date="1483969361886" expanded="true" signature="142:5615" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -675,7 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -699,22 +834,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#ins#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#ins#0;n#ins#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#ins#0;n#ins#0;n#ins#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#iframe#0;n#ins#0;n#ins#0;n#ins#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#6;n#ul#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#li#7;n#ul#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#li#13;n#ul#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#ins#0;n#div#0;n#li#13;n#ul#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#ins#0;n#ins#0;n#div#0;n#li#13;n#ul#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#ins#0;n#ins#0;n#ins#0;n#div#0;n#li#13;n#ul#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#iframe#0;n#ins#0;n#ins#0;n#ins#0;n#div#0;n#li#13;n#ul#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -722,135 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/fitheart/product_review_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
-          <folding>
-            <element signature="e#2706#2824#0#HTML" expanded="false" />
-            <element signature="e#4643#4669#0#HTML" expanded="false" />
-            <element signature="e#5442#5560#0#HTML" expanded="false" />
-            <element signature="e#6102#6220#0#HTML" expanded="false" />
-            <element signature="e#6690#6808#0#HTML" expanded="false" />
-            <element signature="e#7175#7293#0#HTML" expanded="false" />
-            <element signature="e#7944#8062#0#HTML" expanded="false" />
-            <element signature="e#8574#8692#0#HTML" expanded="false" />
-            <element signature="e#9015#9133#0#HTML" expanded="false" />
-            <element signature="e#9511#9629#0#HTML" expanded="false" />
-            <element signature="e#9992#10110#0#HTML" expanded="false" />
-            <element signature="e#10730#10848#0#HTML" expanded="false" />
-            <element signature="e#11141#11167#0#HTML" expanded="false" />
-            <element signature="e#11540#11664#0#HTML" expanded="false" />
-            <element signature="e#11923#12047#0#HTML" expanded="false" />
-            <element signature="e#12311#12435#0#HTML" expanded="false" />
-            <element signature="e#12915#13039#0#HTML" expanded="false" />
-            <element signature="e#13305#13429#0#HTML" expanded="false" />
-            <element signature="e#13693#13817#0#HTML" expanded="false" />
-            <element signature="e#14219#14337#0#HTML" expanded="false" />
-            <element signature="e#14685#14803#0#HTML" expanded="false" />
-            <element signature="e#15165#15283#0#HTML" expanded="false" />
-            <element signature="e#15828#15946#0#HTML" expanded="false" />
-            <element signature="e#16277#16395#0#HTML" expanded="false" />
-            <element signature="e#16858#16982#0#HTML" expanded="false" />
-            <element signature="e#17246#17370#0#HTML" expanded="false" />
-            <element signature="e#17717#17841#0#HTML" expanded="false" />
-            <element signature="e#18210#18328#0#HTML" expanded="false" />
-            <element signature="e#18711#18829#0#HTML" expanded="false" />
-            <element signature="e#19536#19562#0#HTML" expanded="false" />
-            <element signature="e#19717#19835#0#HTML" expanded="false" />
-            <element signature="e#22169#22188#0#HTML" expanded="false" />
-            <element signature="e#22674#22792#0#HTML" expanded="false" />
-            <element signature="e#23259#23377#0#HTML" expanded="false" />
-            <element signature="e#24135#24253#0#HTML" expanded="false" />
-            <element signature="e#24934#25052#0#HTML" expanded="false" />
-            <element signature="e#25592#25710#0#HTML" expanded="false" />
-            <element signature="e#26747#26865#0#HTML" expanded="false" />
-            <element signature="e#27381#27499#0#HTML" expanded="false" />
-            <element signature="e#28200#28318#0#HTML" expanded="false" />
-            <element signature="e#28945#29063#0#HTML" expanded="false" />
-            <element signature="e#29746#29864#0#HTML" expanded="false" />
-            <element signature="e#30920#31044#0#HTML" expanded="false" />
-            <element signature="e#31668#31792#0#HTML" expanded="false" />
-            <element signature="e#32412#32530#0#HTML" expanded="false" />
-            <element signature="e#33204#33322#0#HTML" expanded="false" />
-            <element signature="e#33816#33934#0#HTML" expanded="false" />
-            <element signature="e#34592#34723#0#HTML" expanded="false" />
-            <element signature="e#35366#35484#0#HTML" expanded="false" />
-            <element signature="e#35838#35962#0#HTML" expanded="false" />
-            <element signature="e#37002#37120#0#HTML" expanded="false" />
-            <element signature="e#38180#38304#0#HTML" expanded="false" />
-            <element signature="e#39192#39310#0#HTML" expanded="false" />
-            <element signature="e#39828#39952#0#HTML" expanded="false" />
-            <element signature="e#40323#40447#0#HTML" expanded="false" />
-            <element signature="e#41163#41281#0#HTML" expanded="false" />
-            <element signature="e#41790#41908#0#HTML" expanded="false" />
-            <element signature="e#43519#43643#0#HTML" expanded="false" />
-            <element signature="e#44407#44525#0#HTML" expanded="false" />
-            <element signature="e#45121#45147#0#HTML" expanded="false" />
-            <element signature="e#45324#45442#0#HTML" expanded="false" />
-            <element signature="e#47357#47475#0#HTML" expanded="false" />
-            <element signature="e#48117#48235#0#HTML" expanded="false" />
-            <element signature="e#50290#50408#0#HTML" expanded="false" />
-            <element signature="e#50738#50856#0#HTML" expanded="false" />
-            <element signature="e#51659#51777#0#HTML" expanded="false" />
-            <element signature="e#52167#52285#0#HTML" expanded="false" />
-            <element signature="e#53399#53517#0#HTML" expanded="false" />
-            <element signature="e#54427#54545#0#HTML" expanded="false" />
-            <element signature="e#55099#55217#0#HTML" expanded="false" />
-            <element signature="e#55705#55823#0#HTML" expanded="false" />
-            <element signature="e#56492#56610#0#HTML" expanded="false" />
-            <element signature="e#57232#57350#0#HTML" expanded="false" />
-            <element signature="e#57678#57796#0#HTML" expanded="false" />
-            <element signature="e#58477#58595#0#HTML" expanded="false" />
-            <element signature="e#59508#59626#0#HTML" expanded="false" />
-            <element signature="e#60300#60418#0#HTML" expanded="false" />
-            <element signature="e#61648#61674#0#HTML" expanded="false" />
-            <element signature="e#61864#61982#0#HTML" expanded="false" />
-            <element signature="e#63218#63336#0#HTML" expanded="false" />
-            <element signature="e#63644#63762#0#HTML" expanded="false" />
-            <element signature="e#65812#65936#0#HTML" expanded="false" />
-            <element signature="e#67763#67881#0#HTML" expanded="false" />
-            <element signature="e#68796#68914#0#HTML" expanded="false" />
-            <element signature="e#69222#69340#0#HTML" expanded="false" />
-            <element signature="e#69729#69847#0#HTML" expanded="false" />
-            <element signature="e#70155#70273#0#HTML" expanded="false" />
-            <element signature="e#71078#71104#0#HTML" expanded="false" />
-            <element signature="e#71280#71398#0#HTML" expanded="false" />
-            <element signature="e#72369#72487#0#HTML" expanded="false" />
-            <element signature="e#74511#74629#0#HTML" expanded="false" />
-            <element signature="e#78282#78308#0#HTML" expanded="false" />
-            <element signature="e#78479#78597#0#HTML" expanded="false" />
-            <element signature="e#80343#80461#0#HTML" expanded="false" />
-            <element signature="e#80932#81050#0#HTML" expanded="false" />
-            <element signature="e#82055#82173#0#HTML" expanded="false" />
-            <element signature="e#82684#82802#0#HTML" expanded="false" />
-            <element signature="e#83414#83532#0#HTML" expanded="false" />
-            <element signature="e#84301#84419#0#HTML" expanded="false" />
-            <element signature="e#84796#84914#0#HTML" expanded="false" />
-            <element signature="e#92403#92429#0#HTML" expanded="false" />
-            <element signature="e#92609#92727#0#HTML" expanded="false" />
-            <element signature="e#95040#95158#0#HTML" expanded="false" />
-            <element signature="e#96048#96166#0#HTML" expanded="false" />
-            <element signature="e#96648#96674#0#HTML" expanded="false" />
-            <element signature="e#107589#107615#0#HTML" expanded="false" />
-            <element signature="e#107772#107890#0#HTML" expanded="false" />
-            <element signature="e#110776#110802#0#HTML" expanded="false" />
-            <element signature="e#117850#117871#0#HTML" expanded="false" />
-            <element signature="e#119221#119240#0#HTML" expanded="false" />
-            <element signature="e#119372#119390#0#HTML" expanded="false" />
-            <element signature="e#119419#119438#0#HTML" expanded="false" />
-            <element signature="e#119556#119574#0#HTML" expanded="false" />
-            <element signature="e#119669#119692#0#HTML" expanded="false" />
-            <element signature="e#119776#119796#0#HTML" expanded="false" />
-            <element signature="e#120234#120253#0#HTML" expanded="false" />
-            <element signature="e#129894#129931#0#HTML" expanded="false" />
-            <element signature="e#158331#158368#0#HTML" expanded="false" />
-            <element signature="e#213507#213544#0#HTML" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -866,39 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#h3#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#p#6;n#div#1;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#h3#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#p#10;n#div#1;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#h3#2;n#div#1;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#p#13;n#div#1;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#h3#3;n#div#1;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#p#15;n#div#1;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#h3#4;n#div#1;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#small#0;n#h3#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#input#0;n#p#5;n#form#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#6;n#form#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#input#0;n#p#6;n#form#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#7;n#form#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#p#7;n#form#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#p#0;n#div#2;n#div#0;n#li#0;n#ul#0;n#li#2;n#ol#0;n#div#5;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#p#2;n#div#2;n#div#0;n#li#0;n#ul#0;n#li#2;n#ol#0;n#div#5;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#p#3;n#div#2;n#div#0;n#li#0;n#ul#0;n#li#2;n#ol#0;n#div#5;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#p#2;n#div#2;n#div#0;n#li#3;n#ol#0;n#div#5;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#p#0;n#div#2;n#div#0;n#li#0;n#ul#0;n#li#3;n#ol#0;n#div#5;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#p#0;n#div#2;n#div#0;n#li#1;n#ul#0;n#li#9;n#ol#0;n#div#5;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#p#0;n#div#2;n#div#0;n#li#14;n#ol#0;n#div#5;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#p#0;n#div#2;n#div#0;n#li#26;n#ol#0;n#div#5;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#p#3;n#div#2;n#div#0;n#li#42;n#ol#0;n#div#5;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#p#0;n#div#2;n#div#0;n#li#0;n#ul#0;n#li#54;n#ol#0;n#div#5;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#p#0;n#div#2;n#div#0;n#li#67;n#ol#0;n#div#5;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#p#1;n#div#2;n#div#0;n#li#77;n#ol#0;n#div#5;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#p#0;n#div#2;n#div#0;n#li#0;n#ul#0;n#li#90;n#ol#0;n#div#5;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#li#93;n#ol#0;n#div#5;n#div#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -920,75 +878,94 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/fitheart/product_reviews.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/fitheart/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="105" column="33" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="33" />
+          <folding>
+            <marker date="1483969361886" expanded="true" signature="134:5916" ph="..." />
+            <marker date="1483969361886" expanded="true" signature="142:5615" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fitheart/static/fitheart/js/fitheart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="64" column="7" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
+          <folding>
+            <marker date="1483970688653" expanded="true" signature="2103:2194" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fitheart_dj/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+          <folding>
+            <element signature="e#644#676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fitheart/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fitheart/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-          <folding>
-            <element signature="e#1#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/fitheart/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="103" column="29" selection-start-line="103" selection-start-column="29" selection-end-line="103" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fitheart/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="235">
+          <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/fitheart/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/fitheart/product_reviews.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/fitheart/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="58" column="70" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="70" />
+        <state relative-caret-position="204">
+          <caret line="56" column="39" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fitheart_dj/urls.py">
+    <entry file="file://$PROJECT_DIR$/fitheart/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+        <state relative-caret-position="235">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
           <folding>
-            <element signature="e#644#676#0" expanded="true" />
+            <element signature="e#1#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/fitheart/product_review_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>

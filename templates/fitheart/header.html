@@ -44,45 +44,59 @@
                 <div class="skip-link screen-reader-text"><a href="#content" title="Skip to content">Skip to content</a></div>
 				<div class="menu-header"><ul id="menu-main-menu" class="menu">
 
-                    <li id="menu-item-2789" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2789">
+                    <li id="mi-home" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2789">
                         <a href="https://www.fitheart.com">Home</a>
                     </li>
-                    <li id="menu-item-2816" class="menu-item  menu-item-type-post_type menu-item-object-page current_page_parent menu-item-2816">
+                    <li id="mi-blog" class="menu-item  menu-item-type-post_type menu-item-object-page current_page_parent menu-item-2816">
                         <a href="https://www.fitheart.com/blog">Blog</a>
                     </li>
-                <li id="menu-item-3009" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-3009">
+                <li id="mi-product-review" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-3009">
                      <a href="{%  url 'product-reviews' %}">Product Reviews</a>
 
                         <ul class="sub-menu">
                                  {% for product_grp in product_grp_list %}
-                                     <li id="menu-item-45596" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-66723">
-                                         <a href="{{ product_grp.url }}">{{ product_grp.name }}</a>
+                                     <li id="smi-id-{{ product_grp.id }}" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-66723">
+                                         <a href="{% url 'product-review-detail' product_grp.id %}"  onClick=ClickProductGroup({{ product_grp.id}})>
+                                             {{ product_grp.name }}
+                                         </a>
                                      </li>
                                  {% endfor %}
                         </ul>
                 </li>
-<li id="menu-item-55921" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-55921"><a href="https://www.dcrainmaker.com/2016/11/winter-sports-recommendations.html">2016 Buyers Guides</a>
-<ul class="sub-menu">
-	<li id="menu-item-66723" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-66723"><a href="https://www.dcrainmaker.com/2016/10/annual-winter-2016-2017-bike-smart-trainer-recommendations.html">2016-2017 Bike Trainers Guide</a></li>
-	<li id="menu-item-68102" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-68102"><a href="https://www.dcrainmaker.com/2016/11/trainer-apps-guide.html">2016-2017 Bike Trainer App Guide</a></li>
-	<li id="menu-item-66722" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-66722"><a href="https://www.dcrainmaker.com/2016/09/power-meters-buyers-guide2016-edition.html">2016-2017 Power Meter Guide</a></li>
-	<li id="menu-item-66726" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-66726"><a href="https://www.dcrainmaker.com/2015/05/2015-swimbikerun-gear-list.html">DCR Sports Gear I Use List</a></li>
-	<li id="menu-item-66727" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-66727"><a href="https://www.dcrainmaker.com/2015/05/girls-swimbikerun-gear-list.html">The Girl’s Sports Gear I Use List</a></li>
-	<li id="menu-item-67986" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-67986"><a href="https://www.dcrainmaker.com/2016/11/photography-cameras-equipment.html">Photography Gear I Use</a></li>
-	<li id="menu-item-68786" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-68786"><a href="https://www.dcrainmaker.com/child-gear">Baby/Child Gear We Use</a></li>
-</ul>
-</li>
-<li id="menu-item-2793" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2793"><a href="https://www.dcrainmaker.com/how-to">How-To &amp; Tips</a></li>
-<li id="menu-item-2792" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2792"><a href="https://www.dcrainmaker.com/race-report">Race Report</a></li>
-<li id="menu-item-2790" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2790"><a href="https://www.dcrainmaker.com/travel">Travel</a></li>
-<li id="menu-item-2795" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2795"><a href="https://www.dcrainmaker.com/paris">Paris Blog</a></li>
-<li id="menu-item-2843" class="last menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2843"><a href="https://www.dcrainmaker.com/queue">Queue</a></li>
+    <li id="menu-item-55921" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-55921">
+    <a href="https://www.dcrainmaker.com/2016/11/winter-sports-recommendations.html">2016 Buyers Guides</a>
+        <ul class="sub-menu">
+            <li id="menu-item-66723" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-66723">
+                <a href="https://www.dcrainmaker.com/2016/10/annual-winter-2016-2017-bike-smart-trainer-recommendations.html">2016-2017 Bike Trainers Guide</a></li>
+            <li id="menu-item-68102" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-68102">
+                <a href="https://www.dcrainmaker.com/2016/11/trainer-apps-guide.html">2016-2017 Bike Trainer App Guide</a></li>
+            <li id="menu-item-66722" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-66722">
+                <a href="https://www.dcrainmaker.com/2016/09/power-meters-buyers-guide2016-edition.html">2016-2017 Power Meter Guide</a></li>
+            <li id="menu-item-66726" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-66726">
+                <a href="https://www.dcrainmaker.com/2015/05/2015-swimbikerun-gear-list.html">DCR Sports Gear I Use List</a></li>
+            <li id="menu-item-66727" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-66727">
+                <a href="https://www.dcrainmaker.com/2015/05/girls-swimbikerun-gear-list.html">The Girl’s Sports Gear I Use List</a></li>
+            <li id="menu-item-67986" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-67986">
+                <a href="https://www.dcrainmaker.com/2016/11/photography-cameras-equipment.html">Photography Gear I Use</a></li>
+            <li id="menu-item-68786" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-68786">
+                <a href="https://www.dcrainmaker.com/child-gear">Baby/Child Gear We Use</a></li>
+                </ul>
+    </li>
+<li id="menu-item-2793" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2793">
+    <a href="https://www.dcrainmaker.com/how-to">How-To &amp; Tips</a></li>
+<li id="menu-item-2792" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2792">
+    <a href="https://www.dcrainmaker.com/race-report">Race Report</a></li>
+<li id="menu-item-2790" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2790">
+    <a href="https://www.dcrainmaker.com/travel">Travel</a></li>
+<li id="menu-item-2795" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2795">
+    <a href="https://www.dcrainmaker.com/paris">Paris Blog</a></li>
+<li id="menu-item-2843" class="last menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2843">
+    <a href="https://www.dcrainmaker.com/queue">Queue</a></li>
 </ul></div>
 
 <!--menu from cache /cache/dcrm-cache-menu-header-0.tmp ! -->
 
 
 			</div><!-- #access -->
-
-						</div><!-- #masthead -->
+        </div><!-- #masthead -->
 	</div><!-- #header -->

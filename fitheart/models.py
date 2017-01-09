@@ -30,3 +30,8 @@ class Product(models.Model):
 
 
 
+class Articles(models.Model):
+    title = models.CharField(max_length =100, default="")
+    author = 'bichkhe'
+    date_created = models.DateTimeField()
+    content= models.TextField(max_length=2000, default="")

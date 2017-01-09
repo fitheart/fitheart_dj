@@ -3,10 +3,11 @@
 
  {% block body_content %}
      <div id="container">
-
-      <!--fv_dcrm_product_notices-->
-
-			<div id="content" role="main">
+        {% for article in article  %}
+            <ht1>{{article.title}}</ht1>
+         {% endfor %}
+         <!--fv_dcrm_product_notices-->
+         <div id="content" role="main">
       <div id="post-sections" class=""><h4>JUMP TO:</h4><ul>
 <li><a href="#" class="active">Start</a></li>
 <li><a href="#in-the-box" class="">In the box</a></li>
