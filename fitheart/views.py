@@ -44,15 +44,17 @@ def product_review_detail(request, id):
 
 def article(request, id):
     product_grp_list = ProductGroup.objects.all()
-    pro_grp = ProductGroup.objects.get(id=id)
-    logging.info("ID="+  id + "GROUP NAME =" + pro_grp.name)
+    article = Articles.objects.get(pk=id)
+    product = article.product
+    product_group = product.product_group
+    logging.info("ID="+  id + "GROUP NAME =" + product_group.name)
     #print "group:" + pro_grp.name
     template = loader.get_template('fitheart/article_base.html')
     article = Articles.objects.get(pk=id)
     context ={
         'product_grp_list': product_grp_list,
-        'group_id': pro_grp.id,
-        'group_name': pro_grp.name,
+        'group_id': product_group.id,
+        'group_name': product_group.name,
         'article': article,
     }
     return render(request, 'fitheart/article_base.html', context)

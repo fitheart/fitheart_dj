@@ -15,9 +15,10 @@
 					<h1 class="entry-title padding10">
                         {{ article.title }}
                     </h1>
+                    </div><!-- .post-68215 -->
         {% endblock %}
-             </div><!-- .post-68215 -->
-        {% block extra_info %}
+
+                     {% block extra_info %}
 					<div class="entry-meta">
 						<a href="https://www.dcrainmaker.com/2016/12/dji-mavic-pro-in-depth-review.html" title="6:01 am" rel="bookmark">
                             <span class="entry-date">{{article.date_created}}</span></a><!--<span>|</span>--> by
@@ -35,16 +36,16 @@
                                      alt="DJI-Mavc-Pro-Detailed-Review" width="720" height="480" border="0">
                         </a>
                         </p>
-                </div>
-        {% endblock %}
+
+                   {% endblock %}
                         {% block content %}
-                                    {{ article.content}}
-
-
+                                    <p>{{ article.content}}</p>
                          {% endblock %}<!-- ENDBLOCK content-->
-                         </div><!-- #content -->
 
-     </div>
+                      </div><!--entry-content-->
+
+        </div><!-- #content -->
+     </div> <!--container-->
      {% block comment %}
      {% endblock %}
   {% endblock %}

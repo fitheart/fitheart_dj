@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'fitheart',
-    'froala_editor',
 ]
 
 MIDDLEWARE_CLASSES = [
