@@ -30,7 +30,7 @@ def product_reviews(request):
 def product_review_detail(request, id):
     product_grp_list = ProductGroup.objects.all()
     pro_grp = ProductGroup.objects.get(pk=id)
-    print "ID="+  id + "GROUP NAME =" + pro_grp.name + "IMG:" + pro_grp.img.name
+    #print "ID="+  id + "GROUP NAME =" + pro_grp.name + "IMG:" + pro_grp.img.name
     #print "group:" + pro_grp.name
     template = loader.get_template('fitheart/product_review_base.html')
     articles = Articles.objects.filter(product__product_group_id=id)

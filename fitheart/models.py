@@ -4,12 +4,13 @@ from django.db import models
 from django.utils.timezone import now
 
 from django.db import models
-from froala_editor.fields import FroalaField
-from froala_editor.widgets import FroalaEditor
+#from froala_editor.fields import FroalaField
+#from froala_editor.widgets import FroalaEditor
 from django import forms
 
 class Page(models.Model):
-  content = FroalaField()
+    content= models.TextField()
+  #content = FroalaField()
 
 # Create your models here.
 class ProductGroup(models.Model):
@@ -46,10 +47,10 @@ class Articles(models.Model):
     img_icon = models.ImageField()
     img = models.ImageField()
     content_shortcut = models.TextField(max_length=200, default ="")
-    #content = models.TextField(max_length=2000, default="")
-    content = FroalaField(plugins=('font_size', 'font_family'), options={
-    'toolbarInline': True,
-    })
+    content = models.TextField(max_length=2000, default="")
+    #content = FroalaField(plugins=('font_size', 'font_family'), options={
+    #toolbarInline': True,
+    #})
     #content = models.TextField(widget=FroalaEditor)
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
     def __str__(self):
