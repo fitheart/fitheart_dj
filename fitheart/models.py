@@ -16,10 +16,12 @@ class ProductGroup(models.Model):
     name = models.CharField(max_length=100, default="")
     #products = models.ForeignKey(Product, on_delete=models.CASCADE)
     url = models.CharField(max_length=100, default="")
+    img = models.ImageField()
     def __str__(self):
         return ' '.join([
             self.name,
         ])
+
 
 
 class Product(models.Model):

@@ -23,15 +23,15 @@
 					<div class="entry-meta">
 						<a href="https://www.dcrainmaker.com/2016/12/dji-mavic-pro-in-depth-review.html" title="6:01 am" rel="bookmark">
                             <span class="entry-date">{{article.date_created}}</span></a><!--<span>|</span>--> by
-                        <a href="https://www.dcrainmaker.com/author/rainmaker" title="Posts by FitHeart" rel="author">
-                        FitHeart</a><span>|</span><a href="https://www.dcrainmaker.com/product-reviews/action-cams">{{group_name}}s</a> »
-                        <a href="https://www.dcrainmaker.com/product-reviews/drones">{{article.title}}</a><span>|</span>
+                        <a href="{%  url 'index' %}" title="Posts by FitHeart" rel="author">
+                        FitHeart</a><span>|</span><a href="{% url 'product-review-detail'  group_id %}">{{group_name}}s</a> »
+                        <a href="http://127.0.0.1:8000/article/{{ article.id }}">{{article.title}}</a><span>|</span>
                         <a href="https://www.dcrainmaker.com/2016/12/dji-mavic-pro-in-depth-review.html#comments" class="last">Comments (70)</a>					</div><!-- .entry-meta -->
                     {% endblock %}
 					<div class="entry-content">
 						<p>
                             <a class="colorbox fv_player_pro_boxElement"
-                               href="https://media.dcrainmaker.com/images/2016/12/DJI-Mavc-Pro-Detaild-Review.jpg">
+                               href="http://127.0.0.1:8000/media/{{ article.img }}">
                                 <img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline;
                                 padding-right: 0px; border: 0px;" title="DJI-Mavc-Pro-Detailed-Review"
                                      src="http://127.0.0.1:8000/media/{{ article.img }}"

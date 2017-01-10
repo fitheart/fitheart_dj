@@ -29,13 +29,14 @@ def product_reviews(request):
 
 def product_review_detail(request, id):
     product_grp_list = ProductGroup.objects.all()
-    pro_grp = ProductGroup.objects.get(id=id)
-    logging.info("ID="+  id + "GROUP NAME =" + pro_grp.name)
+    pro_grp = ProductGroup.objects.get(pk=id)
+    print "ID="+  id + "GROUP NAME =" + pro_grp.name + "IMG:" + pro_grp.img.name
     #print "group:" + pro_grp.name
     template = loader.get_template('fitheart/product_review_base.html')
     articles = Articles.objects.filter(product__product_group_id=id)
     context ={
         'product_grp_list': product_grp_list,
+        'group_img:': pro_grp.img.name,
         'group_id': pro_grp.id,
         'group_name': pro_grp.name,
         'article': articles,
