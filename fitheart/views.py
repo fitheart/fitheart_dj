@@ -6,9 +6,9 @@ from django.views.generic import ListView
 from django.forms import Form
 from django.http import JsonResponse
 from .models import (ProductGroup, Product, Articles)
-
+import logging
 # Create your views here.
-
+logger = logging.getLogger(__name__)
 
 def index(request):
     template = loader.get_template('fitheart/index.html')
@@ -20,21 +20,25 @@ def index(request):
     return render(request, 'fitheart/index.html', context=context)
 
 def product_reviews(request):
+    product_grp_list = ProductGroup.objects.all()
     template = loader.get_template('fitheart/product_reviews.html')
     context ={
+        'product_grp_list': product_grp_list,
     }
     return render(request, 'fitheart/product_reviews.html', context)
 
 def product_review_detail(request, id):
-    print "id:" , id
+    product_grp_list = ProductGroup.objects.all()
     pro_grp = ProductGroup.objects.get(id=id)
-    print "group:" + pro_grp.name
-    template = loader.get_template('fitheart/product_review_detail.html')
+    logging.info("ID="+  id + "GROUP NAME =" + pro_grp.name)
+    #print "group:" + pro_grp.name
+    template = loader.get_template('fitheart/product_review_base.html')
     articles = Articles.objects.all()
     context ={
+        'product_grp_list': product_grp_list,
         'group_id': pro_grp.id,
         'group_name': pro_grp.name,
         'article': articles,
     }
-    return render(request, 'fitheart/product_review_detail.html', context)
+    return render(request, 'fitheart/product_review_base.html', context)
 

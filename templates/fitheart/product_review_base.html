@@ -1,0 +1,75 @@
+{%extends 'fitheart/base.html' %}
+{% load  staticfiles %}
+
+ {% block body_content %}
+     <div id="container">
+
+
+
+
+         <!--fv_dcrm_product_notices-->
+
+         <div id="content" role="main">
+
+             <div class="site-section">
+                  <div class="section-title bor-bot">
+                       <!--- BLOCK title -->
+                      {% block title %}
+                        <h1 class="page-title padding10">{{ group_name }}</h1>
+                        <div class="cat-crumbs">
+                            <a href="https://www.dcrainmaker.com/product-reviews">Product Reviews</a> »
+                            <a href="https://www.dcrainmaker.com/product-reviews/drones">{{ group_name }}</a>
+                        </div>
+                      {% endblock %}
+                        <!--- BLOCK title -->
+                  </div><!-- .section-title -->
+
+                <!--- BLOCK cat-image -->
+                {% block cat-image %}
+                <img class="cat-image padding10" src="https://media.dcrainmaker.com/images/2016/09/DSC_0894-720x480.jpg">
+                {% endblock %}
+                <!--- ENDBLOCK cat-image--->
+                {% for article in article  %}
+                  <!--- BLOCK section-wrap -->
+                {% block section-wrap %}
+                  <div class="section-wrap padding10">
+                        <div id="post-68215" class="post-68215 post
+                                type-post status-publish format-standard has-post-thumbnail
+                                category-action-cams category-drones tag-dji tag-dji-mavic
+                                tag-dji-phantom-4 tag-drones">
+                            <div class="section-image">
+                                <a href="https://www.dcrainmaker.com/2016/12/dji-mavic-pro-in-depth-review.html">
+                                    <img width="200" height="132"
+                                         src="https://media.dcrainmaker.com/images/2016/12/DJI-Mavic-Pro-Basics_thumb-200x132.jpg"
+                                         class="attachment-archive_crop wp-post-image" alt="DJI-Mavic-Pro-Basics_thumb.jpg">
+                                </a>
+                            </div>
+
+                            <div class="section-excerpt">
+                              <h2 class="entry-title">
+                                  <a href="https://www.dcrainmaker.com/2016/12/dji-mavic-pro-in-depth-review.html"
+                                     title="Permalink to DJI Mavic Pro In-Depth Review" rel="bookmark">
+                                      {{ article.title }}
+                                  </a>
+                              </h2>
+                                <p>{{article.content_shortcut}}
+                                    <a class="read_more" href="https://www.dcrainmaker.com/2016/12/dji-mavic-pro-in-depth-review.html">
+                                        Read More Here <span class="meta-nav">→
+                                    </span></a>
+                                </p>
+                            </div><!-- .section-excerpt -->
+                            <div class="clear"></div>
+                        </div><!-- #post-## -->
+
+                  </div><!-- .section-wrap -->
+                 {% endblock %}
+                 <!--- ENDBLOCK section-wrap--->
+                {% endfor %}
+
+             </div><!-- .site-section -->
+             <div class="clear"></div>
+
+         </div> <!---content --->
+
+     </div><!-- #container -->
+  {% endblock %}

@@ -29,9 +29,12 @@ class Product(models.Model):
         ])
 
 
-
 class Articles(models.Model):
+
     title = models.CharField(max_length =100, default="")
     author = 'bichkhe'
-    date_created = models.DateTimeField()
-    content= models.TextField(max_length=2000, default="")
+    #date_created = models.DateTimeField()
+    img_icon = models.ImageField()
+    content_shortcut = models.TextField(max_length=100, default ="")
+    content = models.TextField(max_length=800, default="")
+
