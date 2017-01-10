@@ -42,8 +42,12 @@ class Articles(models.Model):
     title = models.CharField(max_length =100, default="")
     author = 'bichkhe'
     img_icon = models.ImageField()
-    content_shortcut = models.TextField(max_length=100, default ="")
-    content = models.TextField(max_length=800, default="")
+    img = models.ImageField()
+    content_shortcut = models.TextField(max_length=200, default ="")
+    #content = models.TextField(max_length=2000, default="")
+    content = FroalaField(plugins=('font_size', 'font_family'), options={
+    'toolbarInline': True,
+    })
     #content = models.TextField(widget=FroalaEditor)
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
     def __str__(self):

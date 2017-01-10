@@ -2,6 +2,7 @@
 {% load  staticfiles %}
 
  {% block body_content %}
+
      <div id="container">
          <!--fv_dcrm_product_notices-->
         <div id="content" role="main">
@@ -24,20 +25,21 @@
                             <span class="entry-date">{{article.date_created}}</span></a><!--<span>|</span>--> by
                         <a href="https://www.dcrainmaker.com/author/rainmaker" title="Posts by FitHeart" rel="author">
                         FitHeart</a><span>|</span><a href="https://www.dcrainmaker.com/product-reviews/action-cams">{{group_name}}s</a> »
-                        <a href="https://www.dcrainmaker.com/product-reviews/drones">{{article.title}}</a><span>|</span><a href="https://www.dcrainmaker.com/2016/12/dji-mavic-pro-in-depth-review.html#comments" class="last">Comments (70)</a>					</div><!-- .entry-meta -->
-
+                        <a href="https://www.dcrainmaker.com/product-reviews/drones">{{article.title}}</a><span>|</span>
+                        <a href="https://www.dcrainmaker.com/2016/12/dji-mavic-pro-in-depth-review.html#comments" class="last">Comments (70)</a>					</div><!-- .entry-meta -->
+                    {% endblock %}
 					<div class="entry-content">
 						<p>
                             <a class="colorbox fv_player_pro_boxElement"
                                href="https://media.dcrainmaker.com/images/2016/12/DJI-Mavc-Pro-Detaild-Review.jpg">
                                 <img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline;
                                 padding-right: 0px; border: 0px;" title="DJI-Mavc-Pro-Detailed-Review"
-                                     src="https://media.dcrainmaker.com/images/2016/12/DJI-Mavc-Pro-Detaild-Review_thumb.jpg"
+                                     src="http://127.0.0.1:8000/media/{{ article.img }}"
                                      alt="DJI-Mavc-Pro-Detailed-Review" width="720" height="480" border="0">
                         </a>
                         </p>
 
-                   {% endblock %}
+
                         {% block content %}
                                     <p>{{ article.content}}</p>
                          {% endblock %}<!-- ENDBLOCK content-->

@@ -4,4 +4,4 @@ from .models import Product, ProductGroup, Articles
 
 admin.site.register(Product)
 admin.site.register(ProductGroup)
-admin.site.register(Articles    )
+admin.site.register(Articles)
