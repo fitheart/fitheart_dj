@@ -24,4 +24,26 @@ urlpatterns = [
     url(r'^index/', views.index, name='index'),
     url(r'^product_reviews/$', views.product_reviews, name='product-reviews'),
     url(r'^product_review/(?P<id>[\w\d0-9]+)/$', views.product_review_detail , name='product-review-detail'),
+    url(r'^article/(?P<id>[\w\d0-9]+)/$', views.article,
+                      name='article'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+#LOGGING
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'file': {
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler',
+            'filename': 'fitheart.log',
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+    },
+}

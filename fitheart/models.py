@@ -1,6 +1,7 @@
 from __future__ import unicode_literals
 
 from django.db import models
+from django.utils.timezone import now
 
 # Create your models here.
 class ProductGroup(models.Model):
@@ -33,8 +34,14 @@ class Articles(models.Model):
 
     title = models.CharField(max_length =100, default="")
     author = 'bichkhe'
-    #date_created = models.DateTimeField()
+    #date_created = models.DateTimeField(auto_now=False)
     img_icon = models.ImageField()
     content_shortcut = models.TextField(max_length=100, default ="")
     content = models.TextField(max_length=800, default="")
 
+    def __str__(self):
+        return ' '.join([
+            self.title,
+            "-",
+            self.author
+        ])

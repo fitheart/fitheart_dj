@@ -767,7 +767,7 @@ div.menu li {
 .home .section-wrap,
 .archive.category-paris .section-wrap,
 .blog .section-wrap {
-    height: 200px
+    height: 135px
 }
 .category .section-wrap,
 .search .section-wrap,
@@ -791,12 +791,14 @@ div.menu li {
     color: #333;
     margin-bottom: 15px
 }
+
 .section-excerpt,
 .archive.category-paris .section-excerpt {
-    float: left;
-    width: 59,2%;
+    float: right;
+    width: 60%;
     position: relative
 }
+
 .archive .section-excerpt,
 .search .section-excerpt {
     width: 510px;

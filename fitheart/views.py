@@ -42,3 +42,17 @@ def product_review_detail(request, id):
     }
     return render(request, 'fitheart/product_review_base.html', context)
 
+def article(request, id):
+    product_grp_list = ProductGroup.objects.all()
+    pro_grp = ProductGroup.objects.get(id=id)
+    logging.info("ID="+  id + "GROUP NAME =" + pro_grp.name)
+    #print "group:" + pro_grp.name
+    template = loader.get_template('fitheart/article_base.html')
+    article = Articles.objects.get(pk=id)
+    context ={
+        'product_grp_list': product_grp_list,
+        'group_id': pro_grp.id,
+        'group_name': pro_grp.name,
+        'article': article,
+    }
+    return render(request, 'fitheart/article_base.html', context)
