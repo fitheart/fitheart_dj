@@ -17,8 +17,8 @@
                       {% block title %}
                         <h1 class="page-title padding10">{{ group_name }}</h1>
                         <div class="cat-crumbs">
-                            <a href="https://www.dcrainmaker.com/product-reviews">Product Reviews</a> »
-                            <a href="https://www.dcrainmaker.com/product-reviews/drones">{{ group_name }}</a>
+                            <a href="{% url 'product-reviews' %}">Product Reviews</a> »
+                            <a href="{% url 'product-review-detail' group_id %}">{{ group_name }}</a>
                         </div>
                       {% endblock %}
                         <!--- BLOCK title -->
@@ -40,7 +40,7 @@
                             <div class="section-image">
                                 <a href="https://www.dcrainmaker.com/2016/12/dji-mavic-pro-in-depth-review.html">
                                     <img width="200" height="132"
-                                         src="https://media.dcrainmaker.com/images/2016/12/DJI-Mavic-Pro-Basics_thumb-200x132.jpg"
+                                         src="http://127.0.0.1:8000/media/{{ article.img_icon.name }}"
                                          class="attachment-archive_crop wp-post-image" alt="DJI-Mavic-Pro-Basics_thumb.jpg">
                                 </a>
                             </div>
@@ -58,7 +58,6 @@
                                     </span></a>
                                 </p>
                             </div><!-- .section-excerpt -->
-                            <div class="clear"></div>
                         </div><!-- #post-## -->
 
                   </div><!-- .section-wrap -->
@@ -66,10 +65,29 @@
                  <!--- ENDBLOCK section-wrap--->
                 {% endfor %}
 
-             </div><!-- .site-section -->
+               <div class="section-wrap padding10">
+		<div id="post-67098" class="post-67098 post type-post status-publish format-standard category-drones category-gopro tag-drones tag-gopro-gimbal tag-gopro-hero4 tag-gopro-hero5 tag-gopro-karma">
+		                  <div class="section-image">
+          <a href="https://www.dcrainmaker.com/2016/11/gopro-karma-drone-review.html"><img class="attachment-thumbnail wp-post-image fv-ut-archive_crop" src="https://media.dcrainmaker.com/images/2016/11/200x132/GoPro-Karma-Flying-Hero-Review.jpg" width="200" height="132">
+</a>
+        </div>
+
+  			<div class="section-excerpt">
+          <h2 class="entry-title"><a href="https://www.dcrainmaker.com/2016/11/gopro-karma-drone-review.html" title="Permalink to GoPro Karma In-Depth Review" rel="bookmark">GoPro Karma In-Depth Review</a></h2>
+  				<p>(Preemptive Note:&nbsp; GoPro just recalled the Karma drone, due to them falling out of the sky upon power loss.&nbsp; It appears the issue is a battery connector that can come lose mid-flight, causing the loss of power.&nbsp; Luckily, that didn’t …  <a class="read_more" href="https://www.dcrainmaker.com/2016/11/gopro-karma-drone-review.html">Read More Here <span class="meta-nav">→</span></a></p>
+  			</div><!-- .section-excerpt -->
+						<div class="clear"></div>
+		</div><!-- #post-## -->
+
+		  </div>
+
+
              <div class="clear"></div>
 
          </div> <!---content --->
+
+             </div><!-- .site-section -->
+
 
      </div><!-- #container -->
   {% endblock %}

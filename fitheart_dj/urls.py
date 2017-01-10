@@ -15,11 +15,13 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from fitheart_dj import settings
 from fitheart import views
+from django.conf.urls.static import static
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^index/', views.index, name='index'),
     url(r'^product_reviews/$', views.product_reviews, name='product-reviews'),
     url(r'^product_review/(?P<id>[\w\d0-9]+)/$', views.product_review_detail , name='product-review-detail'),
-]
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
