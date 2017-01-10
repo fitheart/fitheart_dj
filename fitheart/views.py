@@ -33,7 +33,7 @@ def product_review_detail(request, id):
     logging.info("ID="+  id + "GROUP NAME =" + pro_grp.name)
     #print "group:" + pro_grp.name
     template = loader.get_template('fitheart/product_review_base.html')
-    articles = Articles.objects.all()
+    articles = Articles.objects.filter(product__product_group_id=id)
     context ={
         'product_grp_list': product_grp_list,
         'group_id': pro_grp.id,

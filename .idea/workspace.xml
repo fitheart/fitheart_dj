@@ -2,39 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0324c61f-7a6d-4c1b-a3c8-641fb15fd4fc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fitheart/migrations/0002_product_description.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fitheart/migrations/0003_auto_20170109_1223.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fitheart/migrations/0004_remove_product_url.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fitheart/migrations/0005_auto_20170109_1322.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fitheart/migrations/0006_remove_productgroup_products.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fitheart/migrations/0007_productgroup_products.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fitheart/migrations/0008_auto_20170109_1328.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fitheart/migrations/0009_productgroup_url.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fitheart/migrations/0010_articles.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fitheart/migrations/0011_auto_20170110_0911.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fitheart/migrations/0012_articles_img_icon.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fitheart/migrations/0013_remove_articles_date_created.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fitheart/migrations/0014_auto_20170110_1006.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fitheart/migrations/0015_articles_content.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fitheart/migrations/0016_articles_date_created.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fitheart/migrations/0017_remove_articles_date_created.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fitheart/migrations/0018_articles_date_created.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fitheart/migrations/0019_auto_20170110_1403.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fitheart/migrations/0020_auto_20170110_1405.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fitheart/migrations/0021_auto_20170110_1408.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fitheart/migrations/0022_auto_20170110_1413.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fitheart/migrations/0023_auto_20170110_1413.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fitheart/migrations/0024_remove_articles_date_created.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/fitheart_dj.iml" afterPath="$PROJECT_DIR$/.idea/fitheart_dj.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fitheart/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/fitheart/migrations/0001_initial.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fitheart/models.py" afterPath="$PROJECT_DIR$/fitheart/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fitheart/static/fitheart/css/autoptimize_531c1905e146ddec2c810565b901f830.css" afterPath="$PROJECT_DIR$/fitheart/static/fitheart/css/autoptimize_531c1905e146ddec2c810565b901f830.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fitheart/views.py" afterPath="$PROJECT_DIR$/fitheart/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fitheart_dj/settings.py" afterPath="$PROJECT_DIR$/fitheart_dj/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/fitheart/article_base.html" afterPath="$PROJECT_DIR$/templates/fitheart/article_base.html" />
     </list>
     <ignored path="fitheart_dj.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -139,33 +108,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product_review_detail.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/fitheart/product_review_detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="48" column="51" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
-              <folding>
-                <marker date="1484051308499" expanded="true" signature="117950:117965" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fitheart/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="54" column="45" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="45" />
+            <state relative-caret-position="351">
+              <caret line="34" column="71" selection-start-line="34" selection-start-column="71" selection-end-line="34" selection-end-column="71" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="article_base.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="article_base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/fitheart/article_base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+            <state relative-caret-position="174">
+              <caret line="22" column="70" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product_review_base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/fitheart/product_review_base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="44" column="54" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -205,8 +172,8 @@
         <option value="$PROJECT_DIR$/templates/fitheart/header.html" />
         <option value="$PROJECT_DIR$/fitheart_dj/settings.py" />
         <option value="$PROJECT_DIR$/fitheart/models.py" />
-        <option value="$PROJECT_DIR$/fitheart/views.py" />
         <option value="$PROJECT_DIR$/templates/fitheart/article_base.html" />
+        <option value="$PROJECT_DIR$/fitheart/views.py" />
       </list>
     </option>
   </component>
@@ -982,14 +949,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/fitheart/product_review_base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="44" column="54" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fitheart_dj/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
@@ -1040,14 +999,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fitheart/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="54" column="45" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/fitheart/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1066,8 +1017,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/fitheart/article_base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        <state relative-caret-position="174">
+          <caret line="22" column="70" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/fitheart/product_review_base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="44" column="54" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fitheart/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="34" column="71" selection-start-line="34" selection-start-column="71" selection-end-line="34" selection-end-column="71" />
           <folding />
         </state>
       </provider>
