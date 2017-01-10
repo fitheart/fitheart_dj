@@ -3,6 +3,12 @@ from __future__ import unicode_literals
 from django.db import models
 from django.utils.timezone import now
 
+from django.db import models
+from froala_editor.fields import FroalaField
+
+class Page(models.Model):
+  content = FroalaField()
+
 # Create your models here.
 class ProductGroup(models.Model):
     name = models.CharField(max_length=100, default="")
@@ -45,3 +51,5 @@ class Articles(models.Model):
             "-",
             self.author
         ])
+
+

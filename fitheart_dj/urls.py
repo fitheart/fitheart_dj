@@ -19,6 +19,7 @@ from fitheart_dj import settings
 from fitheart import views
 from django.conf.urls.static import static
 
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^index/', views.index, name='index'),
