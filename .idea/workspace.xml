@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0324c61f-7a6d-4c1b-a3c8-641fb15fd4fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/fitheart/article_base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fitheart/models.py" afterPath="$PROJECT_DIR$/fitheart/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fitheart/static/fitheart/css/autoptimize_531c1905e146ddec2c810565b901f830.css" afterPath="$PROJECT_DIR$/fitheart/static/fitheart/css/autoptimize_531c1905e146ddec2c810565b901f830.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fitheart/views.py" afterPath="$PROJECT_DIR$/fitheart/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fitheart_dj/urls.py" afterPath="$PROJECT_DIR$/fitheart_dj/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/fitheart/base.html" afterPath="$PROJECT_DIR$/templates/fitheart/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/fitheart/article_base.html" afterPath="$PROJECT_DIR$/templates/fitheart/article_base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/fitheart/product_review_base.html" afterPath="$PROJECT_DIR$/templates/fitheart/product_review_base.html" />
     </list>
     <ignored path="fitheart_dj.iws" />
@@ -66,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fitheart/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+            <state relative-caret-position="395">
+              <caret line="39" column="58" selection-start-line="39" selection-start-column="58" selection-end-line="39" selection-end-column="58" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -101,8 +97,8 @@
       <file leaf-file-name="product_review_detail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/fitheart/product_review_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1632">
-              <caret line="96" column="47" selection-start-line="96" selection-start-column="47" selection-end-line="96" selection-end-column="47" />
+            <state relative-caret-position="646">
+              <caret line="47" column="51" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -123,22 +119,20 @@
       <file leaf-file-name="product_review_base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/fitheart/product_review_base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="59" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="16" />
+            <state relative-caret-position="272">
+              <caret line="44" column="54" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="article_base.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="article_base.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/fitheart/article_base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="22" column="69" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="75" />
+            <state relative-caret-position="343">
+              <caret line="25" column="100" selection-start-line="25" selection-start-column="100" selection-end-line="25" selection-end-column="100" />
               <folding>
-                <element signature="e#1746#1896#0#HTML" expanded="true" />
-                <element signature="e#3938#3964#0#HTML" expanded="true" />
-                <element signature="e#4737#4855#0#HTML" expanded="true" />
+                <element signature="e#1753#1903#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -173,11 +167,11 @@
         <option value="$PROJECT_DIR$/templates/fitheart/product_review_detail.html" />
         <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/templates/fitheart/base.html" />
-        <option value="$PROJECT_DIR$/templates/fitheart/product_review_base.html" />
         <option value="$PROJECT_DIR$/fitheart_dj/urls.py" />
         <option value="$PROJECT_DIR$/fitheart/views.py" />
-        <option value="$PROJECT_DIR$/templates/fitheart/article_base.html" />
         <option value="$PROJECT_DIR$/fitheart/models.py" />
+        <option value="$PROJECT_DIR$/templates/fitheart/product_review_base.html" />
+        <option value="$PROJECT_DIR$/templates/fitheart/article_base.html" />
       </list>
     </option>
   </component>
@@ -583,7 +577,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45652175" sideWeight="0.4911374" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45652175" sideWeight="0.4911374" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -965,14 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/fitheart/product_review_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="96" column="47" selection-start-line="96" selection-start-column="47" selection-end-line="96" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/fitheart/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
@@ -989,32 +975,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/fitheart/product_review_base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="59" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fitheart/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
           <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
           <folding>
             <element signature="e#1#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/fitheart/article_base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="69" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="75" />
-          <folding>
-            <element signature="e#1746#1896#0#HTML" expanded="true" />
-            <element signature="e#3938#3964#0#HTML" expanded="true" />
-            <element signature="e#4737#4855#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1031,10 +997,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fitheart/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+        <state relative-caret-position="395">
+          <caret line="39" column="58" selection-start-line="39" selection-start-column="58" selection-end-line="39" selection-end-column="58" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/fitheart/product_review_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="47" column="51" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/fitheart/product_review_base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="44" column="54" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/fitheart/article_base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="25" column="100" selection-start-line="25" selection-start-column="100" selection-end-line="25" selection-end-column="100" />
+          <folding>
+            <element signature="e#1753#1903#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>

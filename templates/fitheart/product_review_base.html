@@ -43,13 +43,13 @@
 
                             <div class="section-excerpt">
                               <h2 class="entry-title">
-                                  <a href="https://www.dcrainmaker.com/2016/12/dji-mavic-pro-in-depth-review.html"
+                                  <a href="{% url 'article' article.id %}"
                                      title="Permalink to DJI Mavic Pro In-Depth Review" rel="bookmark">
                                       {{ article.title }}
                                   </a>
                               </h2>
                                 <p>{{article.content_shortcut}}
-                                    <a class="read_more" href="https://www.dcrainmaker.com/2016/12/dji-mavic-pro-in-depth-review.html">
+                                    <a class="read_more" href="{% url 'article' article.id %}">
                                         Read More Here <span class="meta-nav">→
                                     </span></a>
                                 </p>

@@ -21,9 +21,9 @@
 					<div class="entry-meta">
 						<a href="https://www.dcrainmaker.com/2016/12/dji-mavic-pro-in-depth-review.html" title="6:01 am" rel="bookmark">
                             <span class="entry-date">{{article.date_created}}</span></a><!--<span>|</span>--> by
-                        <a href="https://www.dcrainmaker.com/author/rainmaker" title="Posts by DC Rainmaker" rel="author">
-                        DC Rainmaker</a><span>|</span><a href="https://www.dcrainmaker.com/product-reviews/action-cams">Action Cams</a> »
-                        <a href="https://www.dcrainmaker.com/product-reviews/drones">Drones</a><span>|</span><a href="https://www.dcrainmaker.com/2016/12/dji-mavic-pro-in-depth-review.html#comments" class="last">Comments (70)</a>					</div><!-- .entry-meta -->
+                        <a href="https://www.dcrainmaker.com/author/rainmaker" title="Posts by FitHeart" rel="author">
+                        FitHeart</a><span>|</span><a href="https://www.dcrainmaker.com/product-reviews/action-cams">{{group_name}}s</a> »
+                        <a href="https://www.dcrainmaker.com/product-reviews/drones">{{article.title}}</a><span>|</span><a href="https://www.dcrainmaker.com/2016/12/dji-mavic-pro-in-depth-review.html#comments" class="last">Comments (70)</a>					</div><!-- .entry-meta -->
 
 					<div class="entry-content">
 						<p>
@@ -38,23 +38,12 @@
                 </div>
         {% endblock %}
                         {% block content %}
-<p>While the widely held assumption this year was that the GoPro Karma drone would be the hottest drone
-    to get one’s hands on, it’s quickly become clear over the last 75 days that wouldn’t quite pan out.&nbsp;
-    A mere 7 days after GoPro announced their Karma drone in September, DJI countered with the Mavic Pro.
-</p>
-<p>The Mavic Pro would be DJI’s smallest drone to date, while still maintaining and expanding upon the 4K-capable feature-set of its only 5-month old predecessor, the Phantom 4.&nbsp; Not only was it poised to upset the GoPro apple cart, but also become one of the hottest drones to date.</p>
-<p>But I was curious – would the unit be better for solo sports action? Meaning, the ability to take shots and videos of myself without a secondary person controlling the drone.&nbsp; You saw my <a href="https://www.dcrainmaker.com/2016/04/airdog-action-sports-drone-in-depth-review.html">Airdog drone</a> review earlier this year, and then my <a href="https://www.dcrainmaker.com/2016/11/gopro-karma-drone-review.html">GoPro Karma</a> drone review the week GoPro recalled said drone.&nbsp; Would the Mavic Pro be my best bet?&nbsp; I set to find out.</p>
-<p>As with all these reviewed drones, I bought the Mavic unit myself.&nbsp; Same goes for the countless Kickstarter and other drones I’ve purchased though never bothered reviewing (mostly because they were so terrible I got bored quickly with them).&nbsp; This review includes a heavy focus on the sports action side, but also goes in-depth on every other component of the Mavic.&nbsp; With that – let’s get started!</p>
-<h3 id="in-the-box"><span style="font-weight: bold;">In the box:</span></h3>
-<p>There are at present two different options available for the DJI Mavic Pro.&nbsp; The first is the base model, and the second is the ‘Fly More’ combo bundle.&nbsp; In my case I bought the Fly More bundle, the main attraction of which is the extra batteries.&nbsp; But I’ll cover the additional differences as well.</p>
-<p>First up, the box.&nbsp; Or in my case, three boxes.&nbsp; See, the two side boxes are the Fly More bundle.&nbsp; The big brown one is the man-purse, while the lower left one is the remaining Fly More bundle parts.&nbsp; Meanwhile, the one with the drone on it is the actual base Mavic.</p>
-<p><a class="colorbox fv_player_pro_boxElement" href="https://media.dcrainmaker.com/images/2016/12/DJI-Mavic-Pro-Unboxing.jpg"><img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="DJI-Mavic-Pro-Unboxing" src="https://media.dcrainmaker.com/images/2016/12/DJI-Mavic-Pro-Unboxing_thumb.jpg" alt="DJI-Mavic-Pro-Unboxing" width="720" height="480" border="0"></a></p>
+                            {{ article.content}}
 
 
+                         {% endblock %}<!-- ENDBLOCK content-->
+                         </div><!-- #content -->
 
-
-     </div><!-- #content -->
-                            {% endblock %}<!-- ENDBLOCK content-->
      </div>
      {% block comment %}
      {% endblock %}
