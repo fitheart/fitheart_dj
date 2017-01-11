@@ -41,7 +41,13 @@
 
 
                         {% block content %}
-                                    <p>{{ article.content}}</p>
+                            <div id="article_content">
+                                    <p> <script>
+                                        ShowArticleContent({{ article.content }});
+                                        </script>
+                                    </p>
+                            </div>
+
                          {% endblock %}<!-- ENDBLOCK content-->
 
                       </div><!--entry-content-->

@@ -66,7 +66,17 @@ function onclick1() {
 }
 
 
+//Test for click button
 function  ClickProductGroup(id) {
     console.log('ClickProductGroup with id=' + id);
     //alert('ClickProductGroup!~');
 }
+
+// Show article content
+function ShowArticleContent(content) {
+     console.log("ShowArticleContent(), Show html content") ; // sanity check
+    $("#article_content").html(content);
+}
+
+
+
