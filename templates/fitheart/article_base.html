@@ -42,12 +42,8 @@
 
                         {% block content %}
                             <div id="article_content">
-                                    <p> <script>
-                                        ShowArticleContent({{ article.content }});
-                                        </script>
-                                    </p>
+                               {% autoescape off %}{{ article.content }}{% endautoescape %}
                             </div>
-
                          {% endblock %}<!-- ENDBLOCK content-->
 
                       </div><!--entry-content-->
