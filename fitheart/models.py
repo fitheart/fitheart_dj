@@ -4,6 +4,7 @@ from django.db import models
 from django.utils.timezone import now
 
 from django.db import models
+from tinymce.models import HTMLField
 #from froala_editor.fields import FroalaField
 #from froala_editor.widgets import FroalaEditor
 from django import forms
@@ -51,6 +52,7 @@ class Articles(models.Model):
     #content = FroalaField(plugins=('font_size', 'font_family'), options={
     #toolbarInline': True,
     #})
+    content_editor = HTMLField()
     #content = models.TextField(widget=FroalaEditor)
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
     def __str__(self):

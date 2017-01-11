@@ -13,7 +13,7 @@ Including another URLconf
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
-from django.conf.urls import url
+from django.conf.urls import url, include
 from django.contrib import admin
 from fitheart_dj import settings
 from fitheart import views
@@ -27,6 +27,8 @@ urlpatterns = [
     url(r'^product_review/(?P<id>[\w\d0-9]+)/$', views.product_review_detail , name='product-review-detail'),
     url(r'^article/(?P<id>[\w\d0-9]+)/$', views.article,
                       name='article'),
+    url(r'^tinymce/', include('tinymce.urls')),
+
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 #LOGGING
