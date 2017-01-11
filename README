@@ -44,3 +44,5 @@ TINYMCE_DEFAULT_CONFIG = {
     'paste_text_sticky_default' : True,
     'valid_styles' : 'font-weight,font-style,text-decoration',
 }
+
+Fix  error thi ghi vao day
