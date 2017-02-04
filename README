@@ -68,3 +68,20 @@ Your opinion is welcome.
 Good work !!!
 
 
+[21/02/2017]
+Remove script in base.html
+
+   <script type="text/javascript" src="{% static 'fitheart/js/jquery-migrate.min.js.download' %}"></script>
+    <script type="text/javascript" src="{% static 'fitheart/js/jquery.easing.min.js.download' %}"></script>
+    <script type="text/javascript" src="{% static 'fitheart/js/jquery.easy-ticker.min.js.download' %}"></script>
+    <script type="text/javascript" src="{% static 'fitheart/js/jquery.bxslider.min.js.download' %}"></script>
+   <script type='text/javascript' src="{% static 'fitheart/js/jquery-3.1.1.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'fitheart/js/jquery.js.download' %}"></script>
+
+   <script src="{% static 'fitheart/js/nr-998.min.js.download' %}"></script>
+    <script async="" src="{% static 'fitheart/js/analytics.js.download' %}"></script>
+    <script src="{% static 'fitheart/js/ca-pub-7569223330019415.js.download' %}"></script>
+
+
+    <!-- Include JS file. -->
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.4.0/js/froala_editor.min.js'></script>
