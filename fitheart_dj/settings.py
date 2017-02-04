@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'fitheart',
     'tinymce',
+    'rest_framework',
 ]
 
 MIDDLEWARE_CLASSES = [
