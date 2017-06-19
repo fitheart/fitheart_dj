@@ -136,8 +136,8 @@ a img {
 }
 @font-face {
     font-family: 'AnodyneRegular';
-    src: url(//www.dcrainmaker.com/wp-content/themes/dcrainmaker/anodyne-webfont.eot);
-    src: url(//www.dcrainmaker.com/wp-content/themes/dcrainmaker/anodyne-webfont.eot?#iefix) format('embedded-opentype'), url(//www.dcrainmaker.com/wp-content/themes/dcrainmaker/anodyne-webfont.woff) format('woff'), url(//www.dcrainmaker.com/wp-content/themes/dcrainmaker/anodyne-webfont.ttf) format('truetype'), url(//www.dcrainmaker.com/wp-content/themes/dcrainmaker/anodyne-webfont.svg#AnodyneRegular) format('svg');
+    /*src: url(//www.dcrainmaker.com/wp-content/themes/dcrainmaker/anodyne-webfont.eot);*/
+    /*src: url(//www.dcrainmaker.com/wp-content/themes/dcrainmaker/anodyne-webfont.eot?#iefix) format('embedded-opentype'), url(//www.dcrainmaker.com/wp-content/themes/dcrainmaker/anodyne-webfont.woff) format('woff'), url(//www.dcrainmaker.com/wp-content/themes/dcrainmaker/anodyne-webfont.ttf) format('truetype'), url(//www.dcrainmaker.com/wp-content/themes/dcrainmaker/anodyne-webfont.svg#AnodyneRegular) format('svg');*/
     font-weight: normal;
     font-style: normal
 }
@@ -5377,7 +5377,7 @@ p.fv_player_pro_rcp_remaining {
 }
 @font-face {
     font-family: "WebSymbols-Regular";
-    src: url(//www.dcrainmaker.com/wp-content/plugins/accesspress-twitter-feed-pro/css/fonts/WebSymbols-Regular.eot?) format("eot"), url(//www.dcrainmaker.com/wp-content/plugins/accesspress-twitter-feed-pro/css/fonts/WebSymbols-Regular.woff) format("woff"), url(//www.dcrainmaker.com/wp-content/plugins/accesspress-twitter-feed-pro/css/fonts/WebSymbols-Regular.ttf) format("truetype"), url(//www.dcrainmaker.com/wp-content/plugins/accesspress-twitter-feed-pro/css/fonts/WebSymbols-Regular.svg#WebSymbols-Regular) format("svg");
+    /*src: url(//www.dcrainmaker.com/wp-content/plugins/accesspress-twitter-feed-pro/css/fonts/WebSymbols-Regular.eot?) format("eot"), url(//www.dcrainmaker.com/wp-content/plugins/accesspress-twitter-feed-pro/css/fonts/WebSymbols-Regular.woff) format("woff"), url(//www.dcrainmaker.com/wp-content/plugins/accesspress-twitter-feed-pro/css/fonts/WebSymbols-Regular.ttf) format("truetype"), url(//www.dcrainmaker.com/wp-content/plugins/accesspress-twitter-feed-pro/css/fonts/WebSymbols-Regular.svg#WebSymbols-Regular) format("svg");*/
     font-weight: normal;
     font-style: normal
 }

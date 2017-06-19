@@ -1,78 +1,90 @@
 {% load  staticfiles %}
-
-
-    {{ form.media }}
-	<div id="header">
-		<div id="masthead">
-			<div id="branding" role="banner">
-                <div id="site-title">
+<div id="header">
+    <div id="masthead">
+        <div id="branding" role="banner">
+            <div id="site-title">
 					<span>
-						<a href="https://www.dcrainmaker.com/" title="DC Rainmaker" rel="home">
-                            <img src="http://127.0.0.1:8000/media/fh-logo.png   " width="435" height="69" alt="">
-
+						<a href="{% url 'index' %}" title="FitHeart" rel="home">
+                            <img src="http://127.0.0.1:8000/media/fh-logo.png" width="435" height="69" alt="">
                         </a>
 					</span>
-				</div>
-                <div id="site-description">
-                    <div class="menu-topmenu-container"><ul id="menu-topmenu" class="menu">
-                        <li id="menu-item-52163" class="fv_dcrm_login_class_donotremove menu-item menu-item-type-custom menu-item-object-custom menu-item-52163">
+            </div>
+            <div id="site-description">
+                <div class="menu-topmenu-container">
+                    <ul id="menu-topmenu" class="menu">
+                        <li id="menu-item-52163"
+                            class="fv_dcrm_login_class_donotremove menu-item menu-item-type-custom menu-item-object-custom menu-item-52163">
                             <a href="#welcome-members" class="colorbox fv_player_pro_boxElement">Login</a>
                         </li>
-                        <li id="menu-item-2778" class="menu-item  menu-item-type-post_type menu-item-object-page menu-item-2778">
+                        <li id="menu-item-2778"
+                            class="menu-item  menu-item-type-post_type menu-item-object-page menu-item-2778">
                             <a href="https://www.dcrainmaker.com/about-me">About Me</a></li>
-                        <li id="menu-item-2777" class="menu-item  menu-item-type-post_type menu-item-object-page menu-item-2777">
+                        <li id="menu-item-2777"
+                            class="menu-item  menu-item-type-post_type menu-item-object-page menu-item-2777">
                             <a href="https://www.dcrainmaker.com/press-clippings">Press</a></li>
-                        <li id="menu-item-2776" class="menu-item  menu-item-type-post_type menu-item-object-page menu-item-2776">
+                        <li id="menu-item-2776"
+                            class="menu-item  menu-item-type-post_type menu-item-object-page menu-item-2776">
                             <a href="https://www.dcrainmaker.com/contact">Contact</a></li>
-                        <li id="menu-item-2775" class="last menu-item menu-item-type-post_type menu-item-object-page menu-item-2775">
+                        <li id="menu-item-2775"
+                            class="last menu-item menu-item-type-post_type menu-item-object-page menu-item-2775">
                             <a href="https://www.dcrainmaker.com/advertise">Advertise</a></li>
-                        </ul>
-                    </div><!-- #menu-topmenu-container -->
+                    </ul>
+                </div><!-- #menu-topmenu-container -->
 
-<!--menu from cache /cache/dcrm-cache-menu-top-0-logged-out.tmp ! -->
+                <!--menu from cache /cache/dcrm-cache-menu-top-0-logged-out.tmp ! -->
 
-<!-- SEARCH -->
-                    <form role="search" method="get" id="searchform" action="https://www.dcrainmaker.com/">
-                        <div><label class="screen-reader-text" for="s">Search for:</label>
-                            <input type="text" value="Enter Keyword Search" onclick="if(this.value=='Enter Keyword Search') this.value = ''; " onblur="if(this.value=='') this.value = 'Enter Keyword Search'; " name="s" id="s">
-                            <input type="submit" id="searchsubmit" value="Search">
-                        </div>
-                  </form>
-	      </div><!-- #site-description -->
+                <!-- SEARCH -->
+                <form role="search" method="get" id="searchform" action="https://www.dcrainmaker.com/">
+                    <div><label class="screen-reader-text" for="s">Search for:</label>
+                        <input type="text" value="Enter Keyword Search"
+                               ng-click="search()">
+                        <input type="submit" id="searchsubmit" value="Search">
+                    </div>
+                </form>
+            </div><!-- #site-description -->
 
 
-			</div><!-- #branding -->
+        </div><!-- #branding -->
 
-            <!-- NAVIGATION -->
-			<div id="access" role="navigation">
-                <div class="skip-link screen-reader-text"><a href="#content" title="Skip to content">Skip to content</a></div>
-				<div class="menu-header"><ul id="menu-main-menu" class="menu">
+        <!-- NAVIGATION -->
+        <div id="access" role="navigation">
+            <div class="skip-link screen-reader-text"><a href="#content" title="Skip to content">Skip to content</a>
+            </div>
+            <div class="menu-header">
+                <ul id="menu-main-menu" class="menu">
 
-                    <li id="mi-home" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2789">
-                        <a href="https://www.fitheart.com">Home</a>
+                    <li id="mi-home"
+                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2789">
+                        <a href="{% url 'index' %}">Home</a>
                     </li>
-                <li id="mi-product-review" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-3009">
-                     <a href="{%  url 'product-reviews' %}">Product Reviews</a>
+                    <li id="mi-product-review"
+                        class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-3009">
+                        <a href="{% url 'product-reviews' %}">Product Reviews</a>
 
                         <ul class="sub-menu">
-                                 {% for product_grp in product_grp_list %}
-                                     <li id="smi-id-{{ product_grp.id }}" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-66723">
-                                         <a href="{% url 'product-review-detail' product_grp.id %}"  onClick=ClickProductGroup({{ product_grp.id}})>
-                                             {{ product_grp.name }}
-                                         </a>
-                                     </li>
-                                 {% endfor %}
+                            {% for product_grp in product_grp_list %}
+                                <li id="smi-id-{{ product_grp.id }}"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-66723">
+                                    <a href="{% url 'product-review-detail' product_grp.id %}"
+                                       onClick=ClickProductGroup({{ product_grp.id }})>
+                                        {{ product_grp.name }}
+                                    </a>
+                                </li>
+                            {% endfor %}
                         </ul>
-                </li>
-            <li id="menu-item-2793" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2793">
-                <a href="https://www.dcrainmaker.com/how-to">How-To &amp; Tips</a></li>
-                    <li id="menu-item-2793" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2793">
-                <a href="https://www.dcrainmaker.com/how-to">Vietnam Tourist </a></li>
-</ul></div>
+                    </li>
+                    <li id="menu-item-2793"
+                        class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2793">
+                        <a href="{% url 'index' %}">How-To &amp; Tips</a></li>
+                    <li id="menu-item-2793"
+                        class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2793">
+                        <a href="{% url 'index' %}">Vietnam Tourist </a></li>
+                </ul>
+            </div>
 
-<!--menu from cache /cache/dcrm-cache-menu-header-0.tmp ! -->
+            <!--menu from cache /cache/dcrm-cache-menu-header-0.tmp ! -->
 
 
-			</div><!-- #access -->
-        </div><!-- #masthead -->
-	</div><!-- #header -->
+        </div><!-- #access -->
+    </div><!-- #masthead -->
+</div><!-- #header -->
